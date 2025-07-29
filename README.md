@@ -1,12 +1,34 @@
-Estudo de Caso: Clarify - SaaS de Gestão Financeira Colaborativa
-![WhatsApp Image 2025-07-29 at 11 10 30](https://github.com/user-attachments/assets/135f25c3-5cd1-499f-8a23-f8f0292f5a52)
-
+<div align="center">
+<img src="URL_DA_SUA_IMAGEM_DE_CAPA" alt="Clarify Dashboard" width="800"/>
+<h1><strong>Estudo de Caso: Clarify</strong></h1>
+<h3><strong>SaaS de Gestão Financeira Colaborativa</strong></h3>
+<p>
+<a href="#-o-problema">O Problema</a> •
+<a href="#-a-solução-clarify">A Solução</a> •
+<a href="#-arquitetura-técnica">Arquitetura</a> •
+<a href="#-funcionalidades-principais">Funcionalidades</a> •
+<a href="#-tecnologias-utilizadas">Tecnologias</a> •
+<a href="#-desafios-técnicos-e-soluções">Desafios</a>
+</p>
+</div>
 
 Clarify é uma aplicação web fullstack (SaaS) que criei do zero para resolver um problema real: a complexidade do gerenciamento financeiro para casais, famílias e grupos.
 
-Status do Projeto: Ativo e em desenvolvimento.
-Meu Papel: Arquiteto e Desenvolvedor Fullstack (Solo).
-Código-Fonte: Privado / Proprietário.
+
+
+
+
+Status do Projeto
+
+🚀 Ativo e em desenvolvimento
+
+Meu Papel
+
+👨‍💻 Arquiteto e Desenvolvedor Fullstack (Solo)
+
+Código-Fonte
+
+🔒 Privado / Proprietário
 
 Nota: Este repositório serve como uma vitrine técnica e um estudo de caso detalhado do projeto Clarify. O código-fonte não é público, mas a arquitetura, as decisões técnicas e as funcionalidades estão documentadas aqui para fins de portfólio.
 
@@ -19,39 +41,67 @@ Clarify centraliza tudo em uma interface intuitiva, com uma carteira compartilha
 🎥 Demonstração em Vídeo
 (Grave um GIF ou vídeo curto (1-2 min) e coloque aqui. Mostre o fluxo principal: login, visualização do dashboard, adição de uma despesa pela IA, progresso de uma meta e o painel de colaborador. Use um serviço como o imgur ou youtube para hospedar.)
 
-[Link para o Vídeo de Demonstração]
+[Assista à Demonstração em Vídeo]
 
 🏛️ Arquitetura Técnica
-A aplicação foi projetada com uma arquitetura de microsserviços desacoplada, com uma API RESTful no backend e um frontend dinâmico e leve.
+A aplicação foi projetada com uma arquitetura desacoplada, com uma API RESTful no backend e um frontend dinâmico e leve.
 
 ![Diagrama de Arquitetura do Clarify]
 (Crie um diagrama simples usando ferramentas como draw.io ou Excalidraw e adicione a imagem aqui. Mostre o fluxo: Cliente -> Frontend -> API FastAPI -> Banco de Dados PostgreSQL, e as integrações com Mercado Pago, Gemini, etc.)
 
-Backend (Python / FastAPI)
-O coração da aplicação é uma API RESTful construída com FastAPI, escolhido pela sua alta performance, documentação automática e tipagem de dados com Pydantic.
+🚀 Funcionalidades Principais
+Funcionalidade
 
-Banco de Dados: Utilizei PostgreSQL com SQLAlchemy ORM para uma modelagem de dados robusta e segura.
+Descrição Detalhada
 
-Segurança: A segurança foi uma prioridade máxima. Implementei:
+🔐 Autenticação Segura
 
-Autenticação com tokens JWT com escopos para diferentes perfis (clientes e colaboradores).
+Sistema completo de login e registro com tokens JWT para dois tipos de perfis: Clientes e Colaboradores.
 
-Rate limiting e bloqueio de contas para prevenir ataques de força bruta.
+🛡️ Proteção Anti-Fraude
 
-Hashing de senhas (bcrypt) e sanitização de inputs para prevenir XSS.
+Implementação de Rate Limiting e bloqueio de contas para proteger contra ataques de força bruta.
 
-Integrações:
+📦 Modelagem de Dados
 
-Mercado Pago: Para o sistema de assinaturas, gerenciando o ciclo de vida completo do pagamento via API.
+Uso de SQLAlchemy ORM para criar um banco de dados relacional complexo, com relacionamentos e tabelas de associação.
 
-Google Gemini: Para a funcionalidade de "Registro por IA", onde o usuário descreve uma transação em linguagem natural.
+💳 Integração de Pagamentos
 
-Frontend (JavaScript Puro)
-Optei por construir o frontend com JavaScript puro, HTML5 e TailwindCSS para criar uma experiência rápida e leve, sem a sobrecarga de frameworks. Isso também me permitiu demonstrar um domínio profundo da manipulação do DOM e da lógica de frontend.
+Ciclo completo de assinaturas com Mercado Pago, incluindo criação, gerenciamento e webhooks.
 
-Reatividade: A interface é renderizada dinamicamente com base nos dados recebidos da API, criando uma experiência de usuário fluida.
+🤖 Inteligência Artificial
 
-Dois Painéis Distintos: Desenvolvi duas interfaces separadas: uma para os clientes e outra para os colaboradores, cada uma com sua própria lógica de autenticação e funcionalidades.
+Análise de transações financeiras com Google Gemini usando linguagem natural.
+
+👥 Painel Administrativo
+
+Interface para colaboradores com diferentes níveis de permissão (ADM, Suporte) para gerenciar usuários, planos e tickets.
+
+💧 Sanitização de Inputs
+
+Proteção contra ataques XSS através da sanitização de todos os dados inseridos pelo usuário.
+
+🛠️ Tecnologias Utilizadas
+Categoria
+
+Tecnologias
+
+Backend
+
+
+
+Frontend
+
+
+
+Banco de Dados
+
+
+
+APIs Externas
+
+Mercado Pago, Google Gemini
 
 💡 Desafios Técnicos e Soluções
 Durante o desenvolvimento, enfrentei alguns desafios interessantes:
