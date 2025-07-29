@@ -54,7 +54,7 @@ Grupos que compartilham finanças (casais, famílias, colegas de república) ger
 ---
 
 <h2 id="solucao">Solução: Clarify</h2>
-<img width="1024" height="1024" alt="mascote_feliz" src="https://github.com/user-attachments/assets/45b89ae9-311c-4d5e-9256-61df71b87165" />
+<img width="256" height="256" alt="mascote_feliz" src="https://github.com/user-attachments/assets/45b89ae9-311c-4d5e-9256-61df71b87165" />
 
 
 Clarify centraliza a gestão financeira compartilhada em uma interface intuitiva com:
