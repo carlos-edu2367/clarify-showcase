@@ -20,6 +20,9 @@
 Clarify é uma aplicação web fullstack (SaaS) que criei do zero para resolver um problema real: a complexidade do gerenciamento financeiro compartilhado entre casais, famílias e grupos.
 
 ---
+![WhatsApp Image 2025-07-29 at 11 10 30](https://github.com/user-attachments/assets/bc31dc0b-7191-4b06-b971-f2f360abcd3a)
+---
+
 
 ## Status do Projeto
 
@@ -61,14 +64,6 @@ Clarify centraliza a gestão financeira compartilhada em uma interface intuitiva
 
 ---
 
-<h2 id="demonstracao">Demonstração</h2>
-
-Dica: Grave um vídeo curto mostrando o fluxo principal: login, dashboard, IA, metas e painel de colaborador.
-
-[Assista à Demonstração (Link do YouTube/Vimeo)](#)
-
----
-
 <h2 id="arquitetura">Arquitetura Técnica</h2>
 
 A aplicação foi construída com uma arquitetura desacoplada:
@@ -77,8 +72,6 @@ A aplicação foi construída com uma arquitetura desacoplada:
 - Backend em FastAPI (API RESTful)  
 - Banco de dados relacional com PostgreSQL  
 - Integrações com Mercado Pago e Google Gemini  
-
-Dica: Inclua aqui um diagrama explicando o fluxo Cliente → Frontend → API → Banco de Dados
 
 ---
 
