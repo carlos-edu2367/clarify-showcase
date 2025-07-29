@@ -15,131 +15,168 @@
 
 ---
 
-<h2 id="sobre">📌 Sobre o Projeto</h2>
+## Sobre o Projeto
 
-<p>
-<strong>Clarify</strong> é uma aplicação web fullstack (SaaS) que criei do zero para resolver um problema real: a complexidade do gerenciamento financeiro compartilhado entre casais, famílias e grupos.
-</p>
+Clarify é uma aplicação web fullstack (SaaS) que criei do zero para resolver um problema real: a complexidade do gerenciamento financeiro compartilhado entre casais, famílias e grupos.
 
 ---
 
-<h2>🚧 Status do Projeto</h2>
+## Status do Projeto
 
-<p><strong>🚀 Em desenvolvimento</strong></p>
-
----
-
-<h2>👨‍💻 Meu Papel</h2>
-
-<p><strong>Arquiteto e Desenvolvedor Fullstack (Solo)</strong></p>
+Em desenvolvimento
 
 ---
 
-<h2>🔒 Código-Fonte</h2>
+## Meu Papel
 
-<p>
-<strong>Privado / Proprietário</strong><br>
-Este repositório serve como vitrine técnica. O código não é público, mas a arquitetura, decisões técnicas e funcionalidades estão documentadas.
-</p>
+Arquiteto e Desenvolvedor Fullstack (Solo)
 
 ---
 
-<h2 id="problema">🎯 O Problema</h2>
+## Código-Fonte
 
-<p>
-Grupos que compartilham finanças (casais, famílias, colegas de república) geralmente usam planilhas confusas, anotações ou apenas "memória". Isso causa:
-<ul>
-  <li>Estresse financeiro</li>
-  <li>Falta de clareza</li>
-  <li>Dificuldade em atingir metas comuns</li>
-</ul>
-</p>
+Privado / Proprietário  
+Este repositório serve como uma vitrine técnica. O código não é público, mas a arquitetura, decisões técnicas e funcionalidades estão documentadas aqui para fins de portfólio.
 
 ---
 
-<h2 id="solucao">✨ A Solução: Clarify</h2>
+<h2 id="problema">Problema</h2>
 
-<p>
-Clarify centraliza a gestão financeira compartilhada em uma interface intuitiva, com:
-<ul>
-  <li>💼 Carteiras em grupo</li>
-  <li>🎯 Metas coletivas</li>
-  <li>🤖 Transações inteligentes com IA</li>
-  <li>📊 Relatórios colaborativos</li>
-</ul>
-</p>
+Grupos que compartilham finanças (casais, famílias, colegas de república) geralmente usam planilhas confusas, anotações ou apenas a memória. Isso causa:
+
+- Estresse financeiro  
+- Falta de clareza  
+- Dificuldade em atingir metas comuns  
 
 ---
 
-<h2 id="demonstracao">🎥 Demonstração em Vídeo</h2>
+<h2 id="solucao">Solução: Clarify</h2>
 
-<p>
-💡 <i>Dica: Grave um vídeo curto mostrando o fluxo principal: login, dashboard, IA, metas e painel de colaborador.</i><br>
-🔗 <strong>[Assista à Demonstração (Link do YouTube/Vimeo)](#)</strong>
-</p>
+Clarify centraliza a gestão financeira compartilhada em uma interface intuitiva com:
 
----
-
-<h2 id="arquitetura">🏛️ Arquitetura Técnica</h2>
-
-<p>
-A aplicação foi construída com arquitetura desacoplada:
-<ul>
-  <li>Frontend: React</li>
-  <li>Backend: FastAPI REST</li>
-  <li>Banco de Dados: PostgreSQL</li>
-  <li>Integrações: Mercado Pago (pagamentos), Google Gemini (IA)</li>
-</ul>
-
-💡 <i>Dica: Inclua aqui um diagrama (draw.io ou Excalidraw) explicando o fluxo Cliente → Frontend → API → DB</i>
-</p>
+- Carteiras em grupo  
+- Metas coletivas  
+- Adição de transações com IA  
+- Relatórios e painéis colaborativos  
 
 ---
 
-<h2 id="funcionalidades">🚀 Funcionalidades Principais</h2>
+<h2 id="demonstracao">Demonstração</h2>
+
+Dica: Grave um vídeo curto mostrando o fluxo principal: login, dashboard, IA, metas e painel de colaborador.
+
+[Assista à Demonstração (Link do YouTube/Vimeo)](#)
+
+---
+
+<h2 id="arquitetura">Arquitetura Técnica</h2>
+
+A aplicação foi construída com uma arquitetura desacoplada:
+
+- Frontend em React  
+- Backend em FastAPI (API RESTful)  
+- Banco de dados relacional com PostgreSQL  
+- Integrações com Mercado Pago e Google Gemini  
+
+Dica: Inclua aqui um diagrama explicando o fluxo Cliente → Frontend → API → Banco de Dados
+
+---
+
+<h2 id="funcionalidades">Funcionalidades</h2>
 
 <table>
-  <tr><th>Funcionalidade</th><th>Descrição</th></tr>
-  <tr><td>🔐 Autenticação Segura</td><td>Login com JWT e controle de perfis (cliente / colaborador)</td></tr>
-  <tr><td>🛡️ Anti-Fraude</td><td>Rate limiting por IP e bloqueio após falhas no login</td></tr>
-  <tr><td>📦 Modelagem Avançada</td><td>ORM SQLAlchemy com relacionamentos e tabelas auxiliares</td></tr>
-  <tr><td>💳 Assinaturas</td><td>Integração completa com Mercado Pago + Webhooks</td></tr>
-  <tr><td>🤖 IA com Gemini</td><td>Análise de transações em linguagem natural</td></tr>
-  <tr><td>👥 Painel Administrativo</td><td>Permissões por cargo (ADM, Suporte)</td></tr>
-  <tr><td>💧 Sanitização</td><td>Proteção contra XSS em todos os inputs</td></tr>
+  <thead>
+    <tr>
+      <th>Funcionalidade</th>
+      <th>Descrição</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Autenticação Segura</td>
+      <td>Login com JWT e controle de perfis (cliente / colaborador)</td>
+    </tr>
+    <tr>
+      <td>Proteção Anti-Fraude</td>
+      <td>Rate limiting por IP e bloqueio após tentativas de login falhas</td>
+    </tr>
+    <tr>
+      <td>Modelagem Avançada</td>
+      <td>ORM com SQLAlchemy e relacionamentos complexos</td>
+    </tr>
+    <tr>
+      <td>Assinaturas</td>
+      <td>Integração completa com Mercado Pago, incluindo Webhooks</td>
+    </tr>
+    <tr>
+      <td>Inteligência Artificial</td>
+      <td>Interpretação de transações via linguagem natural com Gemini</td>
+    </tr>
+    <tr>
+      <td>Painel Administrativo</td>
+      <td>Permissões diferenciadas por cargo (Admin, Suporte)</td>
+    </tr>
+    <tr>
+      <td>Sanitização de Inputs</td>
+      <td>Prevenção contra XSS em todos os dados inseridos</td>
+    </tr>
+  </tbody>
 </table>
 
 ---
 
-<h2 id="tecnologias">🛠️ Tecnologias Utilizadas</h2>
+<h2 id="tecnologias">Tecnologias Utilizadas</h2>
 
 <table>
-  <tr><th>Categoria</th><th>Tecnologias</th></tr>
-  <tr><td>Backend</td><td>Python, FastAPI, SQLAlchemy</td></tr>
-  <tr><td>Frontend</td><td>React, TailwindCSS, Axios</td></tr>
-  <tr><td>Banco de Dados</td><td>PostgreSQL</td></tr>
-  <tr><td>APIs Externas</td><td>Mercado Pago, Google Gemini</td></tr>
+  <thead>
+    <tr>
+      <th>Categoria</th>
+      <th>Tecnologias</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Backend</td>
+      <td>Python, FastAPI, SQLAlchemy</td>
+    </tr>
+    <tr>
+      <td>Frontend</td>
+      <td>React, TailwindCSS, Axios</td>
+    </tr>
+    <tr>
+      <td>Banco de Dados</td>
+      <td>PostgreSQL</td>
+    </tr>
+    <tr>
+      <td>APIs Externas</td>
+      <td>Mercado Pago, Google Gemini</td>
+    </tr>
+  </tbody>
 </table>
 
 ---
 
-<h2 id="desafios">💡 Desafios Técnicos e Soluções</h2>
+<h2 id="desafios">Desafios Técnicos e Soluções</h2>
 
-<h4>🧩 Sistema de Permissões Flexível</h4>
-<p><strong>Problema:</strong> Diferenciar múltiplos tipos de colaboradores (ADM, suporte)<br>
-<strong>Solução:</strong> Cargo inserido no JWT. Dependências em rotas FastAPI checam permissões dinamicamente.</p>
+<h4>Sistema de Permissões Flexível</h4>
+<strong>Problema:</strong> Diferenciar múltiplos tipos de colaboradores (admin, suporte)  
+<strong>Solução:</strong> O cargo é incluído no JWT. Dependências personalizadas no backend validam o acesso a cada rota crítica.
 
-<h4>🔒 Proteção contra Credential Stuffing</h4>
-<p><strong>Problema:</strong> Login exposto a força bruta<br>
-<strong>Solução:</strong> Rate Limiting por IP + contador de tentativas → bloqueio automático.</p>
+<h4>Proteção contra Credential Stuffing</h4>
+<strong>Problema:</strong> Tentativas repetidas de login comprometem a segurança  
+<strong>Solução:</strong> Rate limiting por IP, contador de tentativas e bloqueio temporário com cache em memória.
 
-<h4>🤝 UX em Assinaturas Concedidas</h4>
-<p><strong>Problema:</strong> Planos concedidos por admin causavam erro no Mercado Pago (404)<br>
-<strong>Solução:</strong> Identificador especial para planos concedidos manualmente, com interface customizada no frontend.</p>
+<h4>Assinaturas Concedidas por Admin</h4>
+<strong>Problema:</strong> Assinaturas manuais geravam erro 404 na API do Mercado Pago  
+<strong>Solução:</strong> O backend identifica essas assinaturas e define um campo especial que ajusta a exibição no frontend para evitar erros e melhorar a experiência.
 
 ---
 
-<h2>🙏 Agradecimentos</h2>
+## Agradecimentos
 
-<p>Obrigado por dedicar seu tempo a este estudo de caso!<br>
-Se quiser discutir mais sobre a arquitetura ou tiver feedback, estou à disposição 😄</p>
+Obrigado por analisar meu projeto!  
+Fico à disposição para discutir a arquitetura e as decisões técnicas com mais detalhes.
+
+---
+
+Se quiser, posso te enviar esse conteúdo como um `README.md` pronto para colocar no GitHub. Deseja o arquivo?
