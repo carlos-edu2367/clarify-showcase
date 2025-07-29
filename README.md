@@ -1,127 +1,145 @@
 <div align="center">
-<!-- Substitua a URL abaixo pela URL da imagem de capa do seu projeto -->
-<img src="https://www.google.com/search?q=https://placehold.co/1200x600/0f172a/3b82f6%3Ftext%3DClarify%26font%3Dinter" alt="Clarify Dashboard" width="800"/>
-<h1><strong>Estudo de Caso: Clarify</strong></h1>
-<h3><strong>SaaS de Gestão Financeira Colaborativa</strong></h3>
-<p>
-<a href="#-o-problema">O Problema</a> •
-<a href="#-a-solução-clarify">A Solução</a> •
-<a href="#-arquitetura-técnica">Arquitetura</a> •
-<a href="#-funcionalidades-principais">Funcionalidades</a> •
-<a href="#-tecnologias-utilizadas">Tecnologias</a> •
-<a href="#-desafios-técnicos-e-soluções">Desafios</a>
-</p>
+  <img src="https://placehold.co/1200x600/0f172a/3b82f6?text=Clarify&font=inter" alt="Clarify Dashboard" width="800"/>
+  <h1><strong>Estudo de Caso: Clarify</strong></h1>
+  <h3>SaaS de Gestão Financeira Colaborativa</h3>
+  <p>
+    <a href="#problema">Problema</a> •
+    <a href="#solucao">Solução</a> •
+    <a href="#demonstracao">Demonstração</a> •
+    <a href="#arquitetura">Arquitetura</a> •
+    <a href="#funcionalidades">Funcionalidades</a> •
+    <a href="#tecnologias">Tecnologias</a> •
+    <a href="#desafios">Desafios</a>
+  </p>
 </div>
 
-Clarify é uma aplicação web fullstack (SaaS) que criei do zero para resolver um problema real: a complexidade do gerenciamento financeiro para casais, famílias e grupos.
+---
 
+<h2 id="sobre">📌 Sobre o Projeto</h2>
 
+<p>
+<strong>Clarify</strong> é uma aplicação web fullstack (SaaS) que criei do zero para resolver um problema real: a complexidade do gerenciamento financeiro compartilhado entre casais, famílias e grupos.
+</p>
 
+---
 
+<h2>🚧 Status do Projeto</h2>
 
-Status do Projeto
+<p><strong>🚀 Em desenvolvimento</strong></p>
 
-🚀 Ativo e em desenvolvimento
+---
 
-Meu Papel
+<h2>👨‍💻 Meu Papel</h2>
 
-👨‍💻 Arquiteto e Desenvolvedor Fullstack (Solo)
+<p><strong>Arquiteto e Desenvolvedor Fullstack (Solo)</strong></p>
 
-Código-Fonte
+---
 
-🔒 Privado / Proprietário
+<h2>🔒 Código-Fonte</h2>
 
-Nota: Este repositório serve como uma vitrine técnica e um estudo de caso detalhado do projeto Clarify. O código-fonte não é público, mas a arquitetura, as decisões técnicas e as funcionalidades estão documentadas aqui para fins de portfólio.
+<p>
+<strong>Privado / Proprietário</strong><br>
+Este repositório serve como vitrine técnica. O código não é público, mas a arquitetura, decisões técnicas e funcionalidades estão documentadas.
+</p>
 
-🎯 O Problema
-Grupos de pessoas que compartilham finanças (seja uma família, um casal ou amigos dividindo um aluguel) frequentemente recorrem a planilhas confusas, anotações em bloco de notas ou simplesmente "cálculos de cabeça", gerando estresse, falta de transparência e dificuldade em atingir objetivos financeiros comuns.
+---
 
-✨ A Solução: Clarify
-Clarify centraliza tudo em uma interface intuitiva, com uma carteira compartilhada, metas em grupo e ferramentas inteligentes, trazendo clareza e paz para a vida financeira partilhada.
+<h2 id="problema">🎯 O Problema</h2>
 
-🎥 Demonstração em Vídeo
-(DICA: Grave um GIF ou vídeo curto (1-2 min) mostrando a aplicação em uso e coloque aqui. Mostre o fluxo principal: login, visualização do dashboard, adição de uma despesa pela IA, progresso de uma meta e o painel de colaborador. Use um serviço como o imgur ou youtube para hospedar.)
+<p>
+Grupos que compartilham finanças (casais, famílias, colegas de república) geralmente usam planilhas confusas, anotações ou apenas "memória". Isso causa:
+<ul>
+  <li>Estresse financeiro</li>
+  <li>Falta de clareza</li>
+  <li>Dificuldade em atingir metas comuns</li>
+</ul>
+</p>
 
-[Assista à Demonstração em Vídeo (Link do YouTube/Vimeo)]
+---
 
-🏛️ Arquitetura Técnica
-A aplicação foi projetada com uma arquitetura desacoplada, com uma API RESTful no backend e um frontend dinâmico e leve.
+<h2 id="solucao">✨ A Solução: Clarify</h2>
 
-(DICA: Crie um diagrama simples usando ferramentas como draw.io ou Excalidraw e adicione a imagem aqui. Mostre o fluxo: Cliente -> Frontend -> API FastAPI -> Banco de Dados PostgreSQL, e as integrações com Mercado Pago, Gemini, etc.)
+<p>
+Clarify centraliza a gestão financeira compartilhada em uma interface intuitiva, com:
+<ul>
+  <li>💼 Carteiras em grupo</li>
+  <li>🎯 Metas coletivas</li>
+  <li>🤖 Transações inteligentes com IA</li>
+  <li>📊 Relatórios colaborativos</li>
+</ul>
+</p>
 
-🚀 Funcionalidades Principais
-Funcionalidade
+---
 
-Descrição Detalhada
+<h2 id="demonstracao">🎥 Demonstração em Vídeo</h2>
 
-🔐 Autenticação Segura
+<p>
+💡 <i>Dica: Grave um vídeo curto mostrando o fluxo principal: login, dashboard, IA, metas e painel de colaborador.</i><br>
+🔗 <strong>[Assista à Demonstração (Link do YouTube/Vimeo)](#)</strong>
+</p>
 
-Sistema completo de login e registro com tokens JWT para dois tipos de perfis: Clientes e Colaboradores.
+---
 
-🛡️ Proteção Anti-Fraude
+<h2 id="arquitetura">🏛️ Arquitetura Técnica</h2>
 
-Implementação de Rate Limiting e bloqueio de contas para proteger contra ataques de força bruta.
+<p>
+A aplicação foi construída com arquitetura desacoplada:
+<ul>
+  <li>Frontend: React</li>
+  <li>Backend: FastAPI REST</li>
+  <li>Banco de Dados: PostgreSQL</li>
+  <li>Integrações: Mercado Pago (pagamentos), Google Gemini (IA)</li>
+</ul>
 
-📦 Modelagem de Dados
+💡 <i>Dica: Inclua aqui um diagrama (draw.io ou Excalidraw) explicando o fluxo Cliente → Frontend → API → DB</i>
+</p>
 
-Uso de SQLAlchemy ORM para criar um banco de dados relacional complexo, com relacionamentos e tabelas de associação.
+---
 
-💳 Integração de Pagamentos
+<h2 id="funcionalidades">🚀 Funcionalidades Principais</h2>
 
-Ciclo completo de assinaturas com Mercado Pago, incluindo criação, gerenciamento e webhooks.
+<table>
+  <tr><th>Funcionalidade</th><th>Descrição</th></tr>
+  <tr><td>🔐 Autenticação Segura</td><td>Login com JWT e controle de perfis (cliente / colaborador)</td></tr>
+  <tr><td>🛡️ Anti-Fraude</td><td>Rate limiting por IP e bloqueio após falhas no login</td></tr>
+  <tr><td>📦 Modelagem Avançada</td><td>ORM SQLAlchemy com relacionamentos e tabelas auxiliares</td></tr>
+  <tr><td>💳 Assinaturas</td><td>Integração completa com Mercado Pago + Webhooks</td></tr>
+  <tr><td>🤖 IA com Gemini</td><td>Análise de transações em linguagem natural</td></tr>
+  <tr><td>👥 Painel Administrativo</td><td>Permissões por cargo (ADM, Suporte)</td></tr>
+  <tr><td>💧 Sanitização</td><td>Proteção contra XSS em todos os inputs</td></tr>
+</table>
 
-🤖 Inteligência Artificial
+---
 
-Análise de transações financeiras com Google Gemini usando linguagem natural.
+<h2 id="tecnologias">🛠️ Tecnologias Utilizadas</h2>
 
-👥 Painel Administrativo
+<table>
+  <tr><th>Categoria</th><th>Tecnologias</th></tr>
+  <tr><td>Backend</td><td>Python, FastAPI, SQLAlchemy</td></tr>
+  <tr><td>Frontend</td><td>React, TailwindCSS, Axios</td></tr>
+  <tr><td>Banco de Dados</td><td>PostgreSQL</td></tr>
+  <tr><td>APIs Externas</td><td>Mercado Pago, Google Gemini</td></tr>
+</table>
 
-Interface para colaboradores com diferentes níveis de permissão (ADM, Suporte) para gerenciar usuários, planos e tickets.
+---
 
-💧 Sanitização de Inputs
+<h2 id="desafios">💡 Desafios Técnicos e Soluções</h2>
 
-Proteção contra ataques XSS através da sanitização de todos os dados inseridos pelo usuário.
+<h4>🧩 Sistema de Permissões Flexível</h4>
+<p><strong>Problema:</strong> Diferenciar múltiplos tipos de colaboradores (ADM, suporte)<br>
+<strong>Solução:</strong> Cargo inserido no JWT. Dependências em rotas FastAPI checam permissões dinamicamente.</p>
 
-🛠️ Tecnologias Utilizadas
-Categoria
+<h4>🔒 Proteção contra Credential Stuffing</h4>
+<p><strong>Problema:</strong> Login exposto a força bruta<br>
+<strong>Solução:</strong> Rate Limiting por IP + contador de tentativas → bloqueio automático.</p>
 
-Tecnologias
+<h4>🤝 UX em Assinaturas Concedidas</h4>
+<p><strong>Problema:</strong> Planos concedidos por admin causavam erro no Mercado Pago (404)<br>
+<strong>Solução:</strong> Identificador especial para planos concedidos manualmente, com interface customizada no frontend.</p>
 
-Backend
+---
 
+<h2>🙏 Agradecimentos</h2>
 
-
-Frontend
-
-
-
-Banco de Dados
-
-
-
-APIs Externas
-
-Mercado Pago, Google Gemini
-
-💡 Desafios Técnicos e Soluções
-Durante o desenvolvimento, enfrentei alguns desafios interessantes:
-
-Desafio: Sistema de Permissões Flexível
-
-Problema: Precisava de um sistema de autorização que diferenciasse não apenas clientes de colaboradores, mas também diferentes tipos de colaboradores (ex: adm vs. suporte).
-
-Solução: Incorporei o "cargo" do colaborador diretamente no payload do token JWT. No backend, criei dependências em FastAPI que verificam esse cargo em rotas críticas, garantindo que apenas administradores pudessem, por exemplo, gerenciar planos de assinatura.
-
-Desafio: Proteger contra Credential Stuffing
-
-Problema: A tela de login é um alvo comum para ataques de força bruta.
-
-Solução: Implementei um sistema de rate limiting por IP e um contador de tentativas de login falhas por conta. Após 5 tentativas sem sucesso, a conta é bloqueada temporariamente. Isso foi feito com um cache em memória e Locks para garantir a segurança em ambientes com múltiplos workers.
-
-Desafio: Experiência do Usuário em Assinaturas Concedidas
-
-Problema: Uma assinatura concedida por um admin não existe no Mercado Pago, o que gerava um erro 404 ao tentar gerenciá-la.
-
-Solução: Criei uma lógica no backend que identifica essas assinaturas "administrativas" (pelo seu ID único) e retorna um campo especial (managed_by: "admin"). No frontend, usei esse campo para renderizar uma interface diferente, informando ao usuário que seu plano é uma cortesia e não pode ser gerenciado, resolvendo o erro e melhorando a UX.
-
-Obrigado por analisar meu projeto! Ficarei feliz em discutir a arquitetura e as decisões técnicas com mais detalhes.
+<p>Obrigado por dedicar seu tempo a este estudo de caso!<br>
+Se quiser discutir mais sobre a arquitetura ou tiver feedback, estou à disposição 😄</p>
