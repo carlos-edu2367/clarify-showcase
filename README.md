@@ -1,5 +1,6 @@
 <div align="center">
-<img src="URL_DA_SUA_IMAGEM_DE_CAPA" alt="Clarify Dashboard" width="800"/>
+<!-- Substitua a URL abaixo pela URL da imagem de capa do seu projeto -->
+<img src="https://www.google.com/search?q=https://placehold.co/1200x600/0f172a/3b82f6%3Ftext%3DClarify%26font%3Dinter" alt="Clarify Dashboard" width="800"/>
 <h1><strong>Estudo de Caso: Clarify</strong></h1>
 <h3><strong>SaaS de Gestão Financeira Colaborativa</strong></h3>
 <p>
@@ -39,15 +40,14 @@ Grupos de pessoas que compartilham finanças (seja uma família, um casal ou ami
 Clarify centraliza tudo em uma interface intuitiva, com uma carteira compartilhada, metas em grupo e ferramentas inteligentes, trazendo clareza e paz para a vida financeira partilhada.
 
 🎥 Demonstração em Vídeo
-(Grave um GIF ou vídeo curto (1-2 min) e coloque aqui. Mostre o fluxo principal: login, visualização do dashboard, adição de uma despesa pela IA, progresso de uma meta e o painel de colaborador. Use um serviço como o imgur ou youtube para hospedar.)
+(DICA: Grave um GIF ou vídeo curto (1-2 min) mostrando a aplicação em uso e coloque aqui. Mostre o fluxo principal: login, visualização do dashboard, adição de uma despesa pela IA, progresso de uma meta e o painel de colaborador. Use um serviço como o imgur ou youtube para hospedar.)
 
-[Assista à Demonstração em Vídeo]
+[Assista à Demonstração em Vídeo (Link do YouTube/Vimeo)]
 
 🏛️ Arquitetura Técnica
 A aplicação foi projetada com uma arquitetura desacoplada, com uma API RESTful no backend e um frontend dinâmico e leve.
 
-![Diagrama de Arquitetura do Clarify]
-(Crie um diagrama simples usando ferramentas como draw.io ou Excalidraw e adicione a imagem aqui. Mostre o fluxo: Cliente -> Frontend -> API FastAPI -> Banco de Dados PostgreSQL, e as integrações com Mercado Pago, Gemini, etc.)
+(DICA: Crie um diagrama simples usando ferramentas como draw.io ou Excalidraw e adicione a imagem aqui. Mostre o fluxo: Cliente -> Frontend -> API FastAPI -> Banco de Dados PostgreSQL, e as integrações com Mercado Pago, Gemini, etc.)
 
 🚀 Funcionalidades Principais
 Funcionalidade
