@@ -179,4 +179,4 @@ Fico à disposição para discutir a arquitetura e as decisões técnicas com ma
 
 ---
 
-Se quiser, posso te enviar esse conteúdo como um `README.md` pronto para colocar no GitHub. Deseja o arquivo?
+
