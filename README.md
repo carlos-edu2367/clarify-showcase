@@ -5,7 +5,6 @@
   <p>
     <a href="#problema">Problema</a> •
     <a href="#solucao">Solução</a> •
-    <a href="#demonstracao">Demonstração</a> •
     <a href="#arquitetura">Arquitetura</a> •
     <a href="#funcionalidades">Funcionalidades</a> •
     <a href="#tecnologias">Tecnologias</a> •
